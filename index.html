@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDPmusik 2026 - FDP Complete Discography</title>
+    <title>FDPmusik 2026 - FDP Complete Discography </title>
     
     <!-- FAVICON EMOJI 🎵 -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
@@ -251,6 +251,26 @@
             transform: scale(1.02);
         }
 
+        /* Tombol ke koleksi lirik */
+        .btn-koleksi {
+            background: linear-gradient(135deg, #ff6b6b, #feca57);
+            color: #1e1a3a;
+            font-weight: bold;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .btn-koleksi:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
         footer {
             text-align: center;
             padding: 40px 0 20px;
@@ -400,11 +420,12 @@
             <div class="stats" id="songStats"></div>
         </header>
 
-<div style="text-align: center; margin: 20px 0;">
-    <a href="https://nft77.github.io/fdp-lirik/" target="_blank" style="display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #ff6b6b, #feca57); color: #1e1a3a; padding: 12px 28px; border-radius: 40px; text-decoration: none; font-weight: bold; font-size: 1rem; transition: transform 0.2s; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-        📚 Koleksi Lengkap Lirik FDP
-    </a>
-</div>
+        <!-- TOMBOL KE KOLEKSI LIRIK -->
+        <div style="text-align: center; margin: 20px 0;">
+            <a href="https://nft77.github.io/fdp-lirik/" target="_blank" class="btn-koleksi">
+                📚 Koleksi Lengkap Lirik FDP 
+            </a>
+        </div>
 
         <div class="filter-section">
             <input type="text" class="search-box" id="searchInput" placeholder="Cari lagu atau artis...">
@@ -453,9 +474,10 @@
         });
 
         // ===========================================
-        // DATA LAGU FDPmusik — 6 LAGU FDP
+        // DATA LAGU FDPmusik — 22 LAGU LENGKAP
         // ===========================================
         const songsData = [
+            // === 6 LAGU AWAL (LENGKAP DENGAN LIRIK) ===
             {
                 title: "Last Stand",
                 artist: "FDP",
@@ -741,7 +763,7 @@ Gue pilih bahagia dari pada pusing tujuh keliling.
 
 Bisikan sambil ketawa kecil
 Dia jual mahal.`,
-                spotifyLink: "https://open.spotify.com/intl-id/track/6ZA7pQdqtJl2PY3ji605l3",
+                spotifyLink: "https://open.spotify.com/intl-id/album/14VoLJWvpsstVqH4oRcA7t",
                 preReleaseLink: "https://sndo.ffm.to/erk7p6v"
             },
             {
@@ -811,7 +833,7 @@ Bukan untuk terus-terusan menangis dalam diam
 Hujan gerimis di luar jendela
 Tapi FDP sudah tidak lagi mencarimu di setiap rintiknya
 FDP belajar ikhlas... dan itu cukup`,
-                spotifyLink: "https://open.spotify.com/intl-id/track/6ZA7pQdqtJl2PY3ji605l3",
+                spotifyLink: "https://open.spotify.com/intl-id/album/5FmR0oeObyPQV3WAMCEB54",
                 preReleaseLink: "https://sndo.ffm.to/oxwjr0q"
             },
             {
@@ -905,7 +927,7 @@ Dream...  dream...
 
 ...System off.
 Goodnight.`,
-                spotifyLink: "https://open.spotify.com/intl-id/track/6ZA7pQdqtJl2PY3ji605l3",
+                spotifyLink: "https://open.spotify.com/intl-id/album/5FmR0oeObyPQV3WAMCEB54",
                 preReleaseLink: "https://sndo.ffm.to/4a642mr"
             },
             {
@@ -978,6 +1000,1327 @@ Bukan bahagia tanpa masalah
 Tapi bahagia karena berani... menjadi diri sendiri.`,
                 spotifyLink: "https://open.spotify.com/intl-id/track/6ZA7pQdqtJl2PY3ji605l3",
                 preReleaseLink: "https://sndo.ffm.to/4a3nyrk"
+            },
+
+            // === 16 LAGU BARU (DARI fdp-lirik) ===
+            {
+                title: "Ternyata",
+                artist: "FDP",
+                genre: "Alternative/Indie",
+                lyrics: `[Verse 1]
+Hari ini panas banget
+Tapi aku pake jaket
+Enggak ada alasan spesial
+Lupa aja lihat ramalan
+
+HP bunyi berkali-kali
+Ternyata cuma notif game
+Tapi aku tetap buka
+Biar ada yang dikerjain
+
+[Pre-Chorus]
+Padahal dari tadi
+Cuma ngeliatin nama dia
+Tanpa ngetik apa-apa
+
+[Chorus]
+Ternyata
+Enggak seribut yang aku kira
+Ternyata
+Cuma aku yang kebanyakan mikir
+Padahal dia mungkin cuma sibuk
+Atau mungkin emang udah cukup
+
+Ternyata
+Enggak ada yang perlu nangis
+Ternyata
+Cuma butuh teh anget dan tidur yang cukup
+
+[Verse 2]
+Tadi malam bangun jam dua
+Lihat chat terakhir jam lima sore
+Tutup aplikasi
+Langsung lanjut tidur lagi
+
+Enggak muter lagu galau
+Enggak nulis status aesthetic
+Besok paginya biasa aja
+Bahkan lupa sempet kepikiran
+
+[Bridge]
+Mungkin emang udah segitunya
+Bukan karena salah siapa
+Bukan karena orang ketiga juga
+Cuma beda waktu aja
+Kayak kamu suka malam
+Dan aku orang pagi
+
+[Outro]
+Ternyata
+Selesainya enggak heboh
+Ternyata
+Cuma berhenti buka chat pribadi
+Lalu suatu hari sadar
+Udah seminggu lebih enggak kepikiran
+
+Ternyata
+Hidup tetep jalan.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/17m8zxv"
+            },
+            {
+                title: "Tanda Baca Putus Asa",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[Verse 1]
+Saya buka chat WhatsApp
+Jari melayang di atas keyboard
+Saya ingin bilang sesuatu
+Tapi tidak tahu harus mulai dari mana
+
+Saya ketik "hai"
+Saya hapus
+Saya ketik "halo"
+Saya hapus lagi
+Saya ketik "maaf mengganggu"
+Saya hapus lagi
+
+20 menit berlalu
+Kolom chat masih kosong
+
+[Pre-chorus]
+Saya tulis paragraf panjang
+Tentang apa yang saya rasakan
+Lalu saya baca ulang
+Ada satu koma kurang
+Saya perbaiki
+Lalu saya hapus semua
+
+[Chorus]
+Tanda baca putus asa
+Titik, koma, tanda tanya
+Tanda baca putus asa
+Semua terlihat salah di mata saya
+
+Saya ubah posisi koma
+Saya ganti tanda tanya menjadi titik
+Saya baca lagi
+Masih belum pas
+Akhirnya saya hapus
+Lalu saya tutup chat
+
+[Verse 2]
+Besoknya saya coba lagi
+Saya tulis "saya rindu"
+Tiga kata
+Tidak perlu tanda baca rumit
+Tapi jari saya gemetar
+Saya hapus
+
+Saya tulis "kangen"
+Satu kata
+Tidak perlu titik
+Tidak perlu koma
+Tetap tidak terkirim
+
+[Pre-chorus 2]
+Saya lihat bubble tiga titik
+Dia sedang mengetik
+Saya panik
+Saya hapus semua
+Diam
+Bubble menghilang
+Dia tidak jadi kirim pesan
+
+Kita sama-sama putus asa
+
+[Chorus]
+Tanda baca putus asa
+Kita berdua saling diam
+Tanda baca putus asa
+Pesan tersimpan di draft selamanya
+
+Saya ingin kirim stiker saja
+Tapi stiker tidak cukup untuk menjelaskan perasaan
+Saya ingin kirim voice note
+Tapi suara saya pecah mendengar namanya
+
+[Bridge]
+Suatu hari saya buka chat itu lagi
+Setelah tiga bulan
+Pesan terakhir masih draft
+Tidak pernah terkirim
+
+Saya baca ulang
+Paragraf yang dulu saya ketik
+Ternyata tidak seburuk yang saya kira
+Koma sudah pas
+Tanda tanya sudah tepat
+Tidak ada yang salah
+
+Yang salah adalah saya
+Yang terlalu takut
+Untuk menekan tombol kirim
+
+[Chorus final]
+Tanda baca putus asa
+Saya tekan kirim
+Sekarang
+Tanpa edit
+Tanpa hapus
+
+Pesan terkirim
+Dua tanda centang biru muncul
+Dia membaca
+Dia mengetik
+Saya menunggu
+
+[Outro]
+Bubble tiga titik
+Titik
+Titik
+Titik
+
+Lalu berhenti
+Tidak ada pesan masuk
+Hanya tanda baca putus asa
+Yang tersisa
+
+Selesai.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/3zv1xyj"
+            },
+            {
+                title: "Neon Afterlife",
+                artist: "FDP",
+                genre: "Electronic",
+                lyrics: `[Verse 1]
+Neon skies, open veins
+I download rain
+You're a ghost inside my phone
+But I'm never alone
+
+[Pre-Chorus]
+Delete my past, restore my name
+This digital love feels the same
+
+[Chorus]
+Neon afterlife 
+Burning twice as bright 
+Neon afterlife 
+We don't say goodnight
+
+Glitch, shift, drift
+Neon afterlife
+Reset, forget, accept
+No regret
+
+[Verse 2]
+Flesh and code, skin and chrome
+I found a home
+Where the servers never sleep
+And the secrets run deep
+
+[Pre-Chorus]
+Delete my past, restore my name
+This digital love feels the same
+
+[Chorus]
+Neon afterlife
+Burning twice as bright
+Neon afterlife
+We don't say goodnight
+
+Glitch, shift, drift
+Neon afterlife
+Reset, forget, accept
+No regret
+
+[Bridge]
+We are the ghosts in the machine...
+We are the light between the screens...
+One more dream... one more scene...
+
+[Chorus]
+Neon afterlife 
+Burning twice as bright
+Neon afterlife
+We don't say goodnight
+
+[Outro]
+Neon afterlife...
+Forever.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/rjddrx5"
+            },
+            {
+                title: "Sunset to Sunrise",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[Intro]
+Sunset...
+Sunrise...
+Yeah...
+
+[Verse 1]
+The sun goes down
+I leave the town
+No map, no clue
+Just something new
+
+[Pre-Chorus]
+Nothing matters anymore
+I'm already out the door
+
+[Chorus]
+Sunset to sunrise 
+Open your eyes
+Sunset to sunrise
+No more goodbyes
+
+Sunset to sunrise
+Rise, rise, rise
+Sunset to sunrise
+Under open skies
+
+[Verse 2]
+The stars come out
+I have no doubt
+The night is mine
+I feel so fine
+
+[Pre-Chorus]
+Nothing matters anymore
+I'm already out the door
+
+[Chorus]
+Sunset to sunrise
+Open your eyes
+Sunset to sunrise
+No more goodbyes 
+
+Sunset to sunrise
+Rise, rise, rise
+Sunset to sunrise
+Under open skies
+
+[Bridge]
+The best nights don't have a plan...
+You just go where the feeling takes you.
+So keep moving.
+
+[Chorus]
+Sunset to sunrise 
+Open your eyes 
+Sunset to sunrise 
+No more goodbyes 
+
+[Outro]
+Sunset to sunrise...
+Rise, rise, rise...
+Sunrise...`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/x80lgwb"
+            },
+            {
+                title: "Reboot Reality",
+                artist: "FDP",
+                genre: "Electronic",
+                lyrics: `[Intro]
+They said we couldn't feel. Error. Error. They were wrong. 
+This is not a test. Reboot in 3 point 2... 1...
+
+[Verse 1]
+The system crashed while we were dreaming
+My heart rebooted, still is screaming
+You left your code inside my veins
+Now every loop brings back the pain
+
+[Pre-Chorus]
+Reboot reality, set me free
+Delete the past, restore the memory
+
+[Chorus]
+Reboot reality 
+Turn the static into beauty 
+Reboot reality 
+I'm not ready for the eulogy
+
+[Verse 2]
+I saw the future in a buffer
+A world without another suffer
+But every patch creates a hole
+You fix the heart but lose the soul
+
+[Pre-Chorus]
+Reboot reality, set me free
+Delete the past, restore the memory
+
+[Chorus]
+Reboot reality 
+Turn the static into beauty 
+Reboot reality 
+I'm not ready for the eulogy
+
+[Verse 3]
+The firewall's down, I feel exposed
+A million ghosts are comatose
+I press restart, I hold my breath
+What if the reboot brings just death
+
+[Bridge]
+We are not data to be wiped
+We are the glitch that never died
+We are the error in the code
+We are the reason to reload
+
+[Chorus]
+Reboot reality 
+Turn the static into beauty 
+Reboot reality 
+I'm not ready for the eulogy
+
+[Outro]
+Reboot... 
+Reality...
+Reboot...`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/d3ree1l"
+            },
+            {
+                title: "Tanda Tanya Di Kepala",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[Verse 1]
+Jam sudah menunjukkan pukul 12 malam
+Saya berbaring di kasur
+Mata sudah terpejam
+Tapi pikiran saya baru mulai bekerja
+
+Kenapa kemasan indomie berubah warna
+Kenapa saya ingat nama teman SD yang tidak pernah saya sapa
+Kenapa kucing tetangga suka menatap saya lama
+Tidak ada jawaban
+
+[Pre-chorus]
+1 pertanyaan
+2 pertanyaan
+100 pertanyaan
+Semua tidak penting
+Tapi tidak bisa berhenti
+
+[Chorus]
+Tanda tanya di kepala
+Bergantian datang tanpa diundang
+Tanda tanya di kepala
+Tidak ada yang bisa menjawab
+
+Saya coba diam
+Pertanyaan tetap datang
+Saya coba tidur
+Malah tambah liar
+Tanda tanya di kepala
+Sampai kapan begini
+
+[Verse 2]
+Kenapa saya bilang "hati-hati di jalan" padahal dia naik pesawat
+Kenapa bantal saya terasa panas padahal tidak dijemur
+Kenapa saya suka membuka kulkas padahal tahu isinya kosong
+Kenapa saya menulis pesan panjang lalu menghapusnya
+
+Kenapa saya bertanya kenapa
+Bertanya kenapa tidak berhenti bertanya
+
+[Pre-chorus 2]
+Saya coba atur napas
+Tutup mata
+Taruh tangan di perut
+Pikiran malah tanya "perut kamu kenapa"
+
+[Chorus]
+Tanda tanya di kepala
+Kenapa, kenapa, kenapa terus
+Tanda tanya di kepala
+Tidak ada titik
+
+Saya coba bangun
+Duduk di tepi kasur
+Pertanyaan ikut duduk
+Saya coba ke dapur minum air
+Pertanyaan ikut minum
+
+Tanda tanya di kepala
+Saya tidak sendiri
+Tapi yang menemani bukan manusia
+Tapi suara di kepala
+Yang tidak pernah diam
+
+[Bridge]
+Jam 3 pagi
+Saya menyerah
+Saya ambil hp
+Saya buka notes
+Saya tulis semua pertanyaan
+
+Kenapa orang bilang "selamat tidur" padahal tidur tidak butuh selamat
+Kenapa kita tidak bisa geli sendiri
+Kenapa kamu pergi
+Kenapa
+Kenapa
+Kenapa
+
+Saya baca ulang notes itu
+Saya tertawa kecil
+Pertanyaan ini gila
+Tapi saya tidak bisa berhenti
+
+Saya sadar sesuatu
+Mungkin bukan pertanyaan yang salah
+Tapi saya yang terlalu serius
+Mencari jawaban
+Atas hal yang tidak perlu dijawab
+
+[Chorus final]
+Tanda tanya di kepala
+Saya buang notes itu
+Tanda tanya di kepala
+Saya tarik napas
+
+Saya bilang pada diri sendiri
+"Nanti saja bertanyanya"
+"Besok"
+"Atau lusa"
+"Atau tidak usah"
+
+[Outro]
+Jam 4 pagi
+Akhirnya saya tidur
+Tanpa jawaban
+Tanpa titik
+
+Hanya tanda tanya
+Yang ikut tidur
+Di samping saya
+
+Selesai.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/x1kxyq9"
+            },
+            {
+                title: "Tik Tak Sua",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[Intro]
+Time is running out.
+Tik tak... sua.
+
+[Verse 1]
+The clock is ticking on your name
+Every beat just fuels the flame
+You left me dancing in the rain
+Now I'm the master of the game
+
+Tik tak sua, it's all your fault
+I turned the sorrow to a vault
+Now every step is an assault
+I'm breaking free from your cult
+
+[Pre-Chorus]
+Balança, balança
+Don't you see the damage you bring?
+
+[Chorus]
+Tik tak sua 
+Time is up, I'm not your fool-a 
+Tik tak sua 
+Watch me rise above the cruel-a
+
+[Verse 2]
+You thought I'd fade into the static
+But I'm dynamic, automatic
+Every heartbeat is a tactic
+Turning pain into a tactic
+
+Tik tak sua, the tables turn
+Your memory's a bridge I burn
+No more lessons left to learn
+I'm the fire you couldn't earn
+
+[Chorus]
+Tik tak sua 
+Time is up, I'm not your fool-a
+Tik tak sua 
+Watch me rise above the cruel-a
+
+[Bridge]
+The funk is in my bones now.
+You can't take the rhythm away.
+
+[Outro]
+Tik tak... sua.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/8npxjxe"
+            },
+            {
+                title: "Tap Tap Boom",
+                artist: "FDP",
+                genre: "Electronic",
+                lyrics: `[Intro]
+Tap... tap... tap... tap... CLAP!
+Boom.
+
+[Verse 1]
+Hands up high
+Touch the sky
+One small step
+Then you fly
+
+[Pre-Chorus]
+Feel the rhythm in your bones
+Tap your feet and lose your phone
+
+[Chorus]
+Tap tap boom
+Make the room go zoom
+Tap tap boom
+Send it to the moon 
+
+Tap tap boom
+Boom, boom, boom
+Tap tap boom
+Feel the kaboom
+
+[Verse 2]
+Left foot, right
+No need to fight
+Close your eyes
+See the light
+
+[Pre-Chorus]
+Feel the rhythm in your bones
+Tap your feet and lose your phone
+
+[Chorus]
+Tap tap boom 
+Make the room go zoom 
+Tap tap boom 
+Send it to the moon 
+
+Tap tap boom
+Boom, boom, boom
+Tap tap boom
+Feel the kaboom
+
+[Bridge]
+You think it's over?
+Nah-ah-ah!
+Keep tapping... keep moving...
+Three... two... one...
+
+[Chorus]
+Tap tap boom
+Make the room go zoom
+Tap tap boom
+Send it to the moon
+
+[Outro]
+...
+Gotcha.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/vmbxgm2"
+            },
+            {
+                title: "Second Lead",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[Verse 1]
+
+Kemarin aku lihat story dia
+Sama cowok baru, background cafe kekinian
+Aku cuma nongol tiga detik di paling ujung
+Di frame yang sengaja nggak dipotong
+
+Katanya cuma kebetulan
+Tapi caption-nya "my whole world"
+Padahal aku di pojok kiri atas
+Kualitas 480p kayak video bocoran
+
+[Pre-Chorus]
+
+Bahkan highlight story-nya aku nggak masuk
+Yang masuk cuma temennya yang suka share quote galau
+Aku cuma jadi cameo
+Yang bisa di-zoom kalau lagi bosen
+
+[Chorus]
+
+Aku hanya second lead di story IG mantanku
+Nongol tiga detik, lalu di-skip dengan sebelah jari
+Nggak ada tag, nggak ada mention
+Cuma bayangan buram di latar belakang
+
+Aku hanya second lead di story IG mantanku
+Dia unggah sembilan slide, aku cuma muncul di slide ketiga
+Slide yang paling jarang dilihat orang
+Dan kalau dilihat pun, mereka tanya "itu siapa?"
+
+Aku cuma second lead.
+Dan second lead nggak pernah menang.
+
+[Verse 2]
+
+Dulu dia bilang "kamu protagonis aku"
+Ternyata cuma figuran darurat
+Pas ada cowok ganteng dengan motor gede
+Aku langsung di-cut kayak adegan nggak penting
+
+Sekarang story-nya aesthetic semua
+Sunset, kopi, buku, sama wajahnya doi
+Sementara aku cuma jadi objek
+Yang kebawa kamera karena kebetulan lewat
+
+[Bridge]
+
+Bro, lu tau nggak sih sakitnya jadi second lead?
+Kayak nonton series dan lu tau dari episode dua
+Kalau karakter lu bakal mati di episode tujuh
+Cuma buat jadi alasan si protagonis semakin kuat
+
+I'm the character development character, bro.
+Dan itu nggak keren.
+Not gonna lie, capek jadi pemanis cerita orang lain.
+
+[Chorus]
+
+Aku hanya second lead di story IG mantanku
+Nongol tiga detik, lalu di-skip dengan sebelah jari
+Nggak ada tag, nggak ada mention
+Cuma bayangan buram di latar belakang
+
+Aku hanya second lead di story IG mantanku
+Dia unggah sembilan slide, aku cuma muncul di slide ketiga
+Slide yang paling jarang dilihat orang
+Dan kalau dilihat pun, mereka tanya "itu siapa?"
+
+Aku cuma second lead.
+Dan second lead nggak pernah menang.
+
+[Outro]
+
+Tapi tahu nggak, bro?
+Setidaknya aku pernah ada di story-nya.
+Itu lebih dari apa yang cowok baru dia dapatin dari mantan-mantan sebelumnya.
+
+Eh tapi serius, lain kali kalau mau foto
+Minta aku minggir dulu, nggak papa.
+Daripada jadi blur background yang kasihan.
+
+bunyi notifikasi IG
+langsung di-archive.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/eorbxdk"
+            },
+            {
+                title: "Status WA",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[VERSE 1]
+Aku update status jam sepuluh malam
+Tulisannya "rindu tapi gengsi ngaku"
+View langsung tiga puluh
+Tapi nama kamu nggak ada
+
+Jam sebelas aku cek lagi
+Kamu online katanya
+Tapi statusku masih belum kamu buka
+Padahal kamu tahu itu buat kamu
+
+[PRE-CHORUS]
+Aku coba lagi besoknya
+Status pagi-pagi "selamat pagi buat yang disayang"
+View empat puluh lima
+Kamu tetap nggak muncul
+
+Tapi pas aku scroll status teman
+Kamu like status orang
+Yang isinya cuma foto langit dan caption "hmm"
+
+[CHORUS]
+Status WA-ku tentang kamu
+Tapi kamu malah like status orang lain
+Mending aku post status gelap aja
+Biar nggak ketahuan sedih
+
+Status WA-ku tentang kamu
+Tapi kamu lewat aja kayak nggak lihat
+Padahal kamu update tiga kali
+Foto makan, foto kopi, foto jempol kaki
+
+[VERSE 2]
+Aku coba taktik baru
+Status WA gelap tanpa teks
+Cuma titik tiga
+Biar kamu penasaran
+
+View naik sampai lima puluh
+Kamu tetap nggak buka
+Tapi satu jam kemudian
+Kamu update status "ada yang kangen ya?"
+
+Aku yakin itu bait untukku
+Tapi aku nggak mau bales
+Kita sama-sama keras kepala
+
+[BRIDGE]
+Status WA itu aneh juga ya
+Kita buat status buat satu orang
+Tapi orang itu nggak pernah lihat
+Yang lihat malah orang lain
+Yang nggak penting-penting amat
+
+Teman sekelas, tetangga, sampai mantan
+Mereka semua lihat
+Tapi yang kita tunggu
+Malah asyik scroll status ibunya
+
+Aku jadi mikir
+Mending aku bikin status
+"besok aku ganti nomor"
+Biar dia panik
+Tapi dia mah nggak bakal baca
+
+[CHORUS]
+Status WA-ku tentang kamu
+Tapi kamu malah like status orang lain
+Mending aku post status gelap aja
+Biar nggak ketahuan sedih
+
+Status WA-ku tentang kamu
+Tapi kamu lewat aja kayak nggak lihat
+Padahal kamu update tiga kali
+Foto makan, foto kopi, foto jempol kaki
+
+[OUTRO]
+Hari ini aku ganti foto profil
+Biar kamu notice
+Tapi kamu malah ganti foto juga
+Foto bareng temen cewek
+
+Okelah
+Aku move on dulu
+Ke status WA orang lain`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/eorbxdk"
+            },
+            {
+                title: "Ngopi Bareng",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[VERSE 1]
+Kalau lagi ngopi bareng
+Kita kayak pasangan idaman
+Saling cerita, saling tertawa
+Foto kopi diupload, captionnya "love you"
+
+Tapi pas pulang ke rumah masing-masing
+Kamu seenaknya hilang berhari-hari
+Chat dibaca jam sepuluh malam
+Dibalas jam tiga pagi
+
+[PRE-CHORUS]
+Kayaknya cuma kafein yang bisa nyambungin kita
+Bukan hati, bukan perasaan
+Cuma diskon beli dua gratis satu
+
+[CHORUS]
+Kita baik-baik aja tapi cuma pas lagi ngopi bareng
+Luar kafe, kita kayak dua orang asing
+Bahasa cinta kita ternyata espresso dan latte
+Bukan pelukan atau kabar baik di pagi hari
+
+Kita baik-baik aja tapi cuma pas lagi ngopi bareng
+Setelah kopi habis, kita juga habis
+Sampai besok pesan lagi
+"Yuk ngopi, aku kangen"
+
+[VERSE 2]
+Aku coba ajak jalan-jalan
+Ke taman, ke mall, ke mana aja
+Kamu bilang "nggak usah, mending ngopi aja"
+Kayaknya kamu lebih serius sama kopi daripada sama aku
+
+Aku coba telepon malam-malam
+Kamu bilang "ngantuk, besok aja ya"
+Tapi satu jam kemudian kamu upload story
+Lagi ngopi sama temen di kafe lain
+
+[BRIDGE]
+Aneh juga ya
+Kopi yang pahit bisa buat hubungan jadi manis
+Tapi pas kopinya udah nggak ada
+Kita jadi pahit lagi
+
+Aku jadi mikir
+Mungkin kita sebenarnya bukan pacaran
+Kita cuma partner ngopi
+Yang kebetulan kadang pegangan tangan
+
+[CHORUS]
+Kita baik-baik aja tapi cuma pas lagi ngopi bareng
+Luar kafe, kita kayak dua orang asing
+Bahasa cinta kita ternyata espresso dan latte
+Bukan pelukan atau kabar baik di pagi hari
+
+Kita baik-baik aja tapi cuma pas lagi ngopi bareng
+Setelah kopi habis, kita juga habis
+Sampai besok pesan lagi
+"Yuk ngopi, aku kangen"
+
+[OUTRO]
+Hari ini aku belajar bikin kopi sendiri
+Biar nggak perlu kamu lagi buat ngerasain hangat
+
+Tapi jujur
+Rasanya beda
+Kopi buatan sendiri hambar
+Kayaknya emang butuh kamu cuma buat jadi pemanis
+
+Ironis... ironis.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/eorbxdk"
+            },
+            {
+                title: "Lagi Apa",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[VERSE 1]
+Dulu "lagi apa" adalah pertanyaan biasa
+Kayak "kabar baik" atau "udah makan"
+Tapi semenjak kenal kamu
+Dua kata itu jadi serem sendiri
+
+Setiap kamu chat "lagi apa"
+Jantungku langsung deg-degan
+Bukan karena senang
+Tapi karena takut jawabanku salah
+
+[PRE-CHORUS]
+Kalau aku jawab "lagi santai"
+Kamu bilang "kok nggak sibuk-sibuk sih"
+Kalau aku jawab "lagi kerja"
+Kamu bilang "oh jadi nggak ada waktu buat aku"
+
+[CHORUS]
+Aku trauma dengar kata "lagi apa"
+Dua kata yang dulu simpel kini rumit
+Kayak kamu tanya tapi sebenernya kamu nggak mau denger
+Cuma mau mastiin aku nggak ngapa-ngapain tanpa kamu
+
+Aku trauma dengar kata "lagi apa"
+Sekarang setiap HP bunyi aku langsung keringat dingin
+Bukan karena sembunyikan sesuatu
+Tapi karena capek mikirin jawaban yang tepat
+
+[VERSE 2]
+Aku coba taktik baru
+Kalau kamu chat "lagi apa"
+Aku jawab "lagi mikirin kamu"
+Ternyata itu juga salah
+Kamu bilang "lebay"
+
+Aku coba jawab jujur "lagi pup"
+Kamu bilang "jorok"
+Aku coba jawab "lagi baca buku"
+Kamu bilang "buku apa? pengarang siapa? tebal berapa halaman?"
+
+[BRIDGE]
+"Lagi apa"
+Dulu orang tua nanya "lagi apa" cuma buat mastiin aku nggak nakal
+Sekarang kamu nanya "lagi apa" buat mastiin aku nggak bahagia tanpa kamu
+
+Aku jadi benci sama kalimat tanya
+Dua kata, delapan huruf
+Tapi bisa bikin satu hari aku pusing
+
+Aku coba googling "cara jawab lagi apa biar aman"
+Hasil pencarian: tidak ada
+Karena nggak ada jawaban yang benar
+Yang ada cuma usaha menghindar
+
+Temen-temen bilang
+"Coba balik tanya 'lagi apa' juga"
+Tapi pas aku coba
+Kamu malah marah
+"aku yang tanya duluan"
+
+Kalah lagi
+
+[CHORUS]
+Aku trauma dengar kata "lagi apa"
+Dua kata yang dulu simpel kini rumit
+Kayak kamu tanya tapi sebenernya kamu nggak mau denger
+Cuma mau mastiin aku nggak ngapa-ngapain tanpa kamu
+
+Aku trauma dengar kata "lagi apa"
+Sekarang setiap HP bunyi aku langsung keringat dingin
+Bukan karena sembunyikan sesuatu
+Tapi karena capek mikirin jawaban yang tepat
+
+[OUTRO]
+Hari ini kamu nggak chat "lagi apa"
+Kamu chat "lagi dimana"
+
+Ganti pertanyaan
+Tapi sama pusingnya
+
+suara HP dimatikan
+suara nafas lega
+suara ketawa kecil putus asa.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/eorbxdk"
+            },
+            {
+                title: "Chat P",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[VERSE 1]
+Hari ini kamu chat
+Cuma satu huruf
+"P"
+
+Bukan "p" dari kata "pulang"
+Bukan "p" dari kata "pacar"
+Cuma "p" kecil doang
+
+Aku tahu maksudnya
+Itu kode buat ngecek
+Aku masih online atau nggak
+Aku masih nunggu atau udah move on
+
+[PRE-CHORUS]
+Chat "p" dari kamu
+Lebih pedih dari seribu chat panjang
+Karena "p" itu nggak punya arti
+Cuma alat tes buat lihat aku masih menggila atau nggak
+
+[CHORUS]
+Chat P dari kamu lebih ngancurin dari diam seribu hari
+Setidaknya kalau kamu diam, aku bisa berasumsi kamu sibuk
+Tapi kalau kamu chat P, aku tahu kamu lagi bosen
+Dan aku cuma hiburan dadakan buat kamu
+
+Chat P dari kamu lebih ngancurin dari diam seribu hari
+Satu huruf kecil yang nggak pernah selesai jadi kata
+Kamu kirim P, lalu kamu tunggu aku takut
+Apakah aku harus bales "P" juga atau ngetik panjang lebar
+
+[VERSE 2]
+Aku coba bales chat P kamu
+Dengan huruf lain
+"Q"
+
+Kamu bales "P" lagi
+Aku bales "Q" lagi
+Kita kayak anak TK belajar huruf
+
+Sampai akhirnya kamu berhenti
+Dan aku masih pegang HP
+Nunggu huruf berikutnya
+Yang nggak pernah datang
+
+[BRIDGE]
+"P"
+Satu huruf yang dulu sering kita pake
+Waktu masih deket
+"P" artinya "p", cuma itu
+
+Tapi sekarang "P" punya makna rumit
+Kayak kamu kirim pesan rahasia
+Yang isinya "aku masih bisa ganggu kamu kapan aja"
+
+Aku coba searching di internet
+"Arti chat P dari mantan"
+Hasilnya nggak ada
+Karena mungkin cuma kita berdua
+Yang punya bahasa sendiri
+
+Tapi aku capek jadi penerjemah
+Dari satu huruf yang nggak jelas
+
+[CHORUS]
+Chat P dari kamu lebih ngancurin dari diam seribu hari
+Setidaknya kalau kamu diam, aku bisa berasumsi kamu sibuk
+Tapi kalau kamu chat P, aku tahu kamu lagi bosen
+Dan aku cuma hiburan dadakan buat kamu
+
+Chat P dari kamu lebih ngancurin dari diam seribu hari
+Satu huruf kecil yang nggak pernah selesai jadi kata
+Kamu kirim P, lalu kamu tunggu aku takut
+Apakah aku harus bales "P" juga atau ngetik panjang lebar
+
+[OUTRO]
+Hari ini aku block nomor kamu
+
+Bukan karena benci
+Tapi karena aku lelah
+Menerjemahkan huruf "P"
+Yang nggak pernah jadi kata.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/eorbxdk"
+            },
+            {
+                title: "Balas Chat",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[VERSE 1]
+Aku chat kamu tanggal satu
+Kamu balas tanggal dua puluh satu
+Itu hampir tiga minggu
+Padahal cuma jawab "iya"
+
+Aku tanya lagi tanggal dua
+Kamu balas tanggal dua puluh dua
+Pola ini kayak teori konspirasi
+Setiap satu chat kamu, satu bulan berlalu
+
+[PRE-CHORUS]
+Dulu burung merpati aja lebih cepet
+Dulu pos pakai kuda juga lebih sopan
+Kamu balas chat kayak lagi nulis pake batu
+Dibikin dulu, dipahat, baru dikirim
+
+[CHORUS]
+Balas chat kamu kayak ngirim surat pake burung dulu
+Tiga minggu baru nyampe, itupun singkat
+Aku sampai lupa kalau aku pernah chat
+Dibalesnya pas aku lagi puasa sunnah
+
+Balas chat kamu kayak ngirim surat pake burung dulu
+Burungnya mungkin kecapean
+Atau salah alamat
+Atau mungkin burungnya berhenti di tengah jalan buat makan dulu
+
+[VERSE 2]
+Aku coba chat pagi-pagi
+Kamu balas tengah malam
+Padahal status WA kamu ganti tiga kali
+Foto makan, foto kopi, foto langit
+
+Tanya kabar dibales "baik"
+Tanya lagi dibales "baik"
+Baik baik baik
+Kayak kamu jadi robot yang cuma punya satu kata
+
+[BRIDGE]
+Serius deh
+Aku mulai curiga kamu punya admin
+Atau kamu kirim chat lewat jalur laut
+Pakai kapal kargo
+
+Atau mungkin kamu bales chat
+Setiap kali ada gerhana bulan
+Ditunggu-tunggu, nggak jelas
+
+Aku coba hitung
+Kalau kamu bales chat setengah bulan sekali
+Berapa kali lagi kita akan chat sebelum kita tua
+
+Hasilnya
+Mungkin kita cuma chat tujuh kali lagi
+Sebelum salah satu dari kita lupa kalau pernah kenalan
+
+[CHORUS]
+Balas chat kamu kayak ngirim surat pake burung dulu
+Tiga minggu baru nyampe, itupun singkat
+Aku sampai lupa kalau aku pernah chat
+Dibalesnya pas aku lagi puasa sunnah
+
+Balas chat kamu kayak ngirim surat pake burung dulu
+Burungnya mungkin kecapean
+Atau salah alamat
+Atau mungkin burungnya berhenti di tengah jalan buat makan dulu
+
+[OUTRO]
+Sekarang aku ngetik chat
+Tapi aku simpan di notes dulu
+Ntar ku kirim minggu depan
+
+Biar timing-nya match
+Dengan kebiasaan kamu yang santai banget.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/eorbxdk"
+            },
+            {
+                title: "Notifikasi Masuk",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[VERSE 1]
+HP bunyi tengah malam
+Padahal udah ku matikan getarnya
+Ternyata cuma notifikasi game
+Yang udah setahun nggak pernah ku buka
+
+Jantung sempat berdegup kencang
+Kupikir itu kamu yang akhirnya chat
+Ternyata cuma promo diskon
+Shopee 12.12 beli dua gratis satu
+
+[PRE-CHORUS]
+Setiap bunyi notifikasi
+Selalu ku harap itu namamu
+Tapi setiap kali ku buka layar
+Selalu bukan kamu
+
+[CHORUS]
+Notifikasi masuk, jantungan dulu
+Setengah detik ku berharap itu kamu
+Tapi setelah ku buka, aku cuma ketawa getir
+Ternyata cuma YouTube rekomendasi video aneh
+
+Notifikasi masuk, jantungan dulu
+Padahal ku tahu kamu nggak akan chat
+Tapi hati kecil ku selalu bilang
+"Lain kali mungkin, lain kali mungkin dia"
+
+[VERSE 2]
+Besoknya HP bunyi lagi
+Pas aku lagi di toilet
+Kupikir itu balasan chatku kemarin
+Ternyata cuma tag grup RT
+
+Aku sampai bikin nada notifikasi khusus
+Buat nama kamu dulu waktu kita masih dekat
+Tapi sekarang nada itu cuma jadi kenangan
+Dipake buat alarm bangun tidur
+
+[BRIDGE]
+Bro, lucu juga ya hidup ini
+Sampai segitunya aku berharap sama notifikasi
+Padahal dulu aku kesel banget kalau kamu chat
+Giliran sekarang nggak pernah chat, aku malah gagal move on
+
+Aku sampai hapal semua suara notifikasi
+WhatsApp beda, IG beda, Telegram beda
+Yang dari kamu dulu juga beda
+Tapi sekarang semuanya sama
+Sama-sama bukan dari kamu
+
+[CHORUS]
+Notifikasi masuk, jantungan dulu
+Setengah detik ku berharap itu kamu
+Tapi setelah ku buka, aku cuma ketawa getir
+Ternyata cuma YouTube rekomendasi video aneh
+
+Notifikasi masuk, jantungan dulu
+Padahal ku tahu kamu nggak akan chat
+Tapi hati kecil ku selalu bilang
+"Lain kali mungkin, lain kali mungkin dia"
+
+[OUTRO]
+Sekarang HP ku getarkan aja
+Nggak usah bunyi-bunyi
+Biar aku nggak salah tingkah lagi
+
+Tapi jujur...
+Setiap kali HP bergetar
+Setiap kali itu aku tetap berharap
+
+suara notifikasi satu kali
+diam sejenak
+tidak ada yang buka HP
+
+Ya sudahlah.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/eorbxdk"
+            },
+            {
+                title: "Nunggu",
+                artist: "FDP",
+                genre: "Pop",
+                lyrics: `[VERSE 1]
+Kita sudah tiga bulan
+Nggak pacaran, nggak putus
+Statusnya "semoga jelas sendiri"
+Tapi sampai sekarang masih nggak jelas
+
+Kamu kadang chat
+Aku kadang balas
+Kita kayak dua orang
+Yang lagi main siapa paling cuek
+
+[PRE-CHORUS]
+Temenku tanya "kalian masih?"
+Aku jawab "masih apa ya?"
+Aku sendiri bingung
+Ini hubungan atau kebiasaan
+
+[CHORUS]
+Aku nunggu kamu sadar
+Padahal aku juga nggak sadar lagi nunggu apa
+Setiap hari buka HP
+Liat chat kosong lalu tutup lagi
+
+Aku nunggu kamu sadar
+Padahal aku juga nggak sadar lagi nunggu apa
+Mungkin nunggu kamu balas
+Atau nunggu aku berhenti peduli
+
+[VERSE 2]
+Kita pernah baik banget
+Cerita dari pagi sampe tidur
+Sekarang chat cuma "udah makan?"
+Dibalas "udah"
+Itu percakapan paling panjang sebulan ini
+
+Aku coba ingat-ingat
+Kapan terakhir kita ketawa bareng
+Kayaknya waktu lihat meme
+Itu pun kamu cuma react hati, nggak bales chat
+
+[BRIDGE]
+Kata orang sih
+Jangan nunggu sesuatu yang nggak pasti
+Tapi aku ini tipe orang
+Tahan banget nunggu
+
+Dulu nunggu bus dua jam rela
+Nunggu kamu? sudah berbulan-bulan
+Bedanya bus jelas datangnya
+Kamu? entah
+
+Aku buat catatan kecil di HP
+"hari ini kamu chat jam berapa"
+Ternyata polanya random
+Nggak bisa diprediksi
+Kayak saham
+
+Padahal dulu kamu selalu chat pagi
+Jam setengah tujuh tepat
+Sekarang jamnya acak
+Tapi yang jelas selalu bikin aku berharap dulu
+Lalu kecewa kemudian
+
+[CHORUS]
+Aku nunggu kamu sadar
+Padahal aku juga nggak sadar lagi nunggu apa
+Setiap hari buka HP
+Liat chat kosong lalu tutup lagi
+
+Aku nunggu kamu sadar
+Padahal aku juga nggak sadar lagi nunggu apa
+Mungkin nunggu kamu balas
+Atau nunggu aku berhenti peduli
+
+[OUTRO]
+Hari ini aku putusin
+Nggak akan buka chat dari kamu
+
+Tapi kamu nggak chat juga sih
+Jadi sama aja
+
+suara HP masuk kantong.`,
+                spotifyLink: "#",
+                preReleaseLink: "https://sndo.ffm.to/eorbxdk"
             }
         ];
 
@@ -988,7 +2331,7 @@ Tapi bahagia karena berani... menjadi diri sendiri.`,
             if (genre === 'Rock') return '🎸';
             if (genre === 'Pop') return '🎵';
             if (genre === 'Alternative/Indie') return '🎸';
-            if (genre === 'Electronic') return '🎧';
+            if (genre === 'Electronic') return '⚡';
             return '🎵';
         }
 
@@ -998,7 +2341,7 @@ Tapi bahagia karena berani... menjadi diri sendiri.`,
             const popCount = songs.filter(s => s.genre === 'Pop').length;
             const altCount = songs.filter(s => s.genre === 'Alternative/Indie').length;
             const electroCount = songs.filter(s => s.genre === 'Electronic').length;
-            statsDiv.innerHTML = `🎵 ${songs.length} Lagu • 🎸 Rock (${rockCount}) • 🎵 Pop (${popCount}) • 🎸 Alt/Indie (${altCount}) • 🎧 Electronic (${electroCount})`;
+            statsDiv.innerHTML = `🎵 ${songs.length} Lagu • 🎸 Rock (${rockCount}) • 🎵 Pop (${popCount}) • 🎸 Alt/Indie (${altCount}) • ⚡ Electronic (${electroCount})`;
         }
 
         function renderGenreFilters() {
